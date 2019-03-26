@@ -1,0 +1,138 @@
+@import '@/assets/scss/commin.scss';
+.page_context {
+    .page_top_layer {
+        height: 380px;
+        display: block;
+    }
+    .page_top {
+        height: 380px;
+        position: absolute;
+        width: 100%;
+        display: block;
+        .page_top_text {
+            position: relative;
+            bottom: -220px;
+            // width: 100%;
+            display: flex;
+            // height: 380px;   
+            padding: 0 64px;
+            .f1 {
+                flex: 1;
+                text-align: center;
+                .f1_num {
+                    font-size: 22px;
+                    font-family: PingFangSC-Medium;
+                    font-weight: 500;
+                    color: rgba(255, 255, 255, 1);
+                    line-height: 30px;
+                    margin-bottom: 20px;
+                }
+                .f1_name {
+                    font-size: 30px;
+                    font-family: PingFangSC-Medium;
+                    font-weight: 500;
+                    color: rgba(255, 255, 255, 1);
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+    .page_context {
+        background-color: white;
+        padding: 0 18px;
+        // height: 100px;
+        border-radius: 20px;
+        margin: 0 18px;
+        margin-top: 30px;
+        .page_context_top {
+            font-size: 32px;
+            font-family: PingFangSC-Medium;
+            font-weight: 500;
+            color: rgba(85, 85, 85, 1);
+            // line-height:22px;
+            padding-bottom: 25px;
+            padding-top: 50px;
+        }
+        ul.context_list {
+            li {
+                display: flex;
+                padding: 25px 0;
+                border-top: 1px solid #f3f3f3;
+                font-size: 24px;
+                overflow: scroll;
+                .context_list_L {
+                    flex: 1;
+                    text-align: left;
+                    .context_list_L_num {
+                        margin-bottom: 30px;
+                    }
+                    .context_list_L_time {
+                        font-family: PingFangSC-Medium;
+                        font-weight: 500;
+                        color: rgba(160, 160, 160, 1);
+                        line-height: 17px;
+                        height: 20px;
+                        font-size: 22px;
+                    }
+                }
+                .context_list_R {
+                    flex: 1;
+                    text-align: right;
+                    .context_list_R_num {
+                        margin-bottom: 30px;
+                        font-size: 32px;
+                        font-family: PingFangSC-Medium;
+                        font-weight: 500;
+                        color: rgba(254, 158, 49, 1);
+                        line-height: 22px;
+                    }
+                    .context_list_R_time {
+                        font-size: 22px;
+                        font-family: PingFangSC-Medium;
+                        font-weight: 500;
+                        color: rgba(160, 160, 160, 1);
+                        height: 20px;
+                        line-height: 17px;
+                    }
+                }
+            }
+            li:last-child {
+                // margin-bottom: 100px;
+            }
+        }
+    }
+}
+
+.page_bottom_btn {
+    background: linear-gradient(to right, #ff9c2b, #ffd15c);
+    font-size: 36px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 25px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    letter-spacing: 5px;
+}
+
+.nodata {
+    border-top: 1px solid #f3f3f3;
+    font-size: 28px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(196, 196, 196, 1);
+    line-height: 20px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    width: 100%;
+}
+
+.block100 {
+    height: 120px;
+    width: 100%;
+}
